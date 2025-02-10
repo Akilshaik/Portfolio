@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block title %}Education - My Portfolio{% endblock %}
+
+{% block extra_head %}
+  <link rel="stylesheet" href="{{ url_for('static', filename='education.css') }}">
+{% endblock %}
+
+{% block content %}
+<section class="education-section">
+  <h1>Education</h1>
+  <div class="education-cards">
+    <div class="education-card">
+      <h2>MSc Computer Science</h2>
+      <p>Fergusson College, Pune | 2023 - 2025</p>
+    </div>
+    <div class="education-card">
+      <h2>BSc Computer Science</h2>
+      <p>New Arts Commerce and Science College, Ahmednagar | 2019 - 2022</p>
+    </div>
+    <div class="education-card">
+      <h2>HSC</h2>
+      <p>Vridheshwar Jr College, Tisgoan | 2018 - 2019</p>
+    </div>
+  </div>
+</section>
+{% endblock %}

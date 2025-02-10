@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+
+{% block title %}Projects - Akil Alamgir Shaikh{% endblock %}
+
+{% block content %}
+<section class="projects-section">
+  <h2>Projects & Research Paper</h2>
+  <div class="projects-container">
+    <div class="project-card">
+      <img src="{{ url_for('static', filename='images/gatevise.png') }}" alt="GateVise" class="project-image">
+      <div class="project-info">
+        <h3>GateVise</h3>
+        <p>Developed a Gate Security System platform using Python & Flask Framework.</p>
+        <p><strong>Technologies:</strong> HTML, CSS, Python, Flask, MySQL</p>
+        <p>
+          <a href="https://github.com/Akilshaik/gatevise" target="_blank">Source Code</a> | 
+          <a href="https://gatevise.example.com" target="_blank">Live Demo</a>
+        </p>
+      </div>
+    </div>
+    <div class="project-card">
+      <img src="{{ url_for('static', filename='images/skycast.png') }}" alt="SkyCast" class="project-image">
+      <div class="project-info">
+        <h3>SkyCast</h3>
+        <p>Developed a weather prediction platform using React & a Machine Learning algorithm (KNN).</p>
+        <p><strong>Technologies:</strong> HTML, CSS, ReactJS, KNN Algorithm</p>
+        <p>
+          <a href="https://github.com/Akilshaik/skycast" target="_blank">Source Code</a> | 
+          <a href="https://skycast-dusky.vercel.app/" target="_blank">Live Demo</a>
+        </p>
+      </div>
+    </div>
+    <div class="project-card">
+      <img src="{{ url_for('static', filename='images/neuronix.png') }}" alt="Neuronix" class="project-image">
+      <div class="project-info">
+        <h3>Neuronix</h3>
+        <p>Created a Desktop Assistant for interactive voice-activated support.</p>
+        <p><strong>Technologies:</strong> Python, Tkinter, Machine Learning</p>
+        <p>
+          <a href="https://github.com/Akilshaik/neuronix" target="_blank">Source Code</a> | 
+          <a href="https://neuronix.example.com" target="_blank">Live Demo</a>
+        </p>
+      </div>
+    </div>
+    <div class="project-card">
+      <div class="project-info">
+        <h3>Research Paper</h3>
+        <p>
+          <em>Understanding the Black Box: Exploring Explainable AI (XAI)</em> – Examines the importance of explainability, reviews techniques, and explores the ethical landscape in AI.
+        </p>
+        <p>
+          <a href="#" target="_blank">View Paper</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}

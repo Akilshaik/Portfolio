@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block title %}Certifications - Akil Alamgir Shaikh{% endblock %}
+
+{% block extra_head %}
+  <link rel="stylesheet" href="{{ url_for('static', filename='certifications.css') }}">
+{% endblock %}
+
+{% block content %}
+<section class="certifications-section">
+  <h2>Certifications & Participations</h2>
+  <div class="certifications-container">
+    <div class="certification-card">
+      <h3>Front End Web Development</h3>
+      <p><em>Udemy</em></p>
+    </div>
+    <div class="certification-card">
+      <h3>Python Certification</h3>
+      <p><em>Udemy</em></p>
+    </div>
+  </div>
+  
+  <h2>Git Repository</h2>
+  <div class="git-container">
+    <a href="https://github.com/Akilshaik" target="_blank">
+      <i class="fab fa-github fa-2x"></i>
+      <span>github.com/Akilshaik</span>
+    </a>
+  </div>
+</section>
+{% endblock %}

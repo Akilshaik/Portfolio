@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block title %}Experience - My Portfolio{% endblock %}
+
+{% block extra_head %}
+  <link rel="stylesheet" href="{{ url_for('static', filename='experience.css') }}">
+{% endblock %}
+
+{% block content %}
+<section class="experience-section">
+  <h1>Work Experience</h1>
+  <div class="experience-cards">
+    <div class="experience-card">
+      <h2>Python Developer Intern</h2>
+      <p><strong>Samanyastra</strong> | Dec 2024 - Present</p>
+      <p>Worked on developing and optimizing Python-based applications, collaborating with a cross-functional team to deliver efficient software solutions, and contributing to code reviews and project documentation.</p>
+    </div>
+    <!-- You can add additional experience cards below -->
+    <!--
+    <div class="experience-card">
+      <h2>Job Title</h2>
+      <p><strong>Company Name</strong> | Date Range</p>
+      <p>Brief description of responsibilities and achievements in this role.</p>
+    </div>
+    -->
+  </div>
+</section>
+{% endblock %}

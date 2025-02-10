@@ -1,0 +1,40 @@
+/* static/css/contact.css */
+
+.contact-section {
+    background: gray;
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .contact-section h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: black;
+  }
+  
+  .contact-details {
+    font-size: 1.2em;
+  }
+  
+  .contact-details p {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .contact-details a {
+    color: red;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .contact-details a:hover {
+    color: #fff;
+  }
+  

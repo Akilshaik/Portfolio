@@ -1,0 +1,74 @@
+/* static/css/home.css */
+
+/* Profile Photo and Container */
+.profile-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-photo {
+    width: 350px;
+    height: 220px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Intro, Objective, and Skills Sections */
+  .intro-section, .objective-section, .skills-section {
+    background: rgb(190, 188, 188);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .intro-section h1,
+  .objective-section h2,
+  .skills-section h2, 
+  .skills-section h3 {
+    color: black;
+  }
+  
+  .intro-section p,
+  .objective-section p,
+  .skills-section p {
+    color:black;
+    font-size: 1.1em;
+  }
+  
+  /* Link Styling */
+  a {
+    color: #ef2a52;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #fff;
+  }
+  
+  /* Skill Boxes Styling */
+  .skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .skill-box {
+    background-color: rgba(144, 138, 138, 0.652);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: red;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .skill-box:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
